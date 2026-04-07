@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio #05 | AsmrProg</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <img src="assets/logo.png">
+            <a href="https://www.linkedin.com/in/wahyu-nugroho-05a001288" target="_blank">Wahyu Nugroho tech</a>
+        </div>
+        <ul>
+            <li><a href="#main">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+        </ul>
+        <button id="menuButton" onclick="openMenu()">
+        <button onclick="location.href='mailto:w4hyunugroho123@gmail.com'">Contact Me</button>
+            <i class='bx bx-menu'></i>
+        </button>
+    </nav>
+
+    <div class="main" id="main">
+        <div class="left">
+            <h5>Hey, I am wahyu nugroho</h5>
+           <h3>I build <span>robotic systems</span> and intelligent automation</h3>
+            <p>
+             Robotics engineer focused on embedded systems, micro-ROS, and real-time control.
+            I develop robot arms, human tracking systems, and IoT-based automation.
+            </p>
+            <button>Get In Touch</button>
+        </div>
+        <div class="right">
+            <img src="assets/header-img.png">
+        </div>
+    </div>
+
+    <div class="skills" id="skills">
+        <h5>My Skills</h5>
+        <h3>My Expertise</h3>
+        <div class="skill-items">
+            <div class="item">
+                <div class="icon"><i class='bx bx-chip'></i></div>
+                <h4>Embedded Systems</h4>
+                <p>ESP32, microcontroller programming, PWM, ADC, hardware integration.</p>
+            </div>
+
+            <div class="item">
+                <div class="icon"><i class='bx bx-bot'></i></div>
+                <h4>Robotics</h4>
+                <p>Robot arm ( 6 DOF), kinematics, servo control, real-time system.</p>
+            </div>
+
+            <div class="item">
+                <div class="icon"><i class='bx bx-network-chart'></i></div>
+                <h4>ROS / micro-ROS</h4>
+                <p>Publish/subscribe communication, robot-computer integration via WiFi.</p>
+            </div>
+
+            <div class="item">
+                <div class="icon"><i class='bx bx-code-alt'></i></div>
+                <h4>Backend & Integration</h4>
+                <p>Python, API integration, Docker, automation (n8n, Telegram bot).</p>
+            </div>
+            <div class="item">
+                <div class="icon"><i class='bx bx-code-alt'></i></i></div>
+                <h4>Webflow Coding</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum
+                    tristique.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="about" id="about">
+        <div class="left">
+            <img src="assets/about-img.png">
+        </div>
+        <div class="right">
+            <h5>About</h5>
+            <h3>About Me</h3>
+         <p>
+            I am a robotics and embedded systems developer with hands-on experience in building
+            robot arms, implementing kinematics, and integrating micro-ROS communication.
+            </p>
+
+            <p>
+            My work focuses on real-time control, human tracking using computer vision (YOLO),
+            and developing scalable systems that connect hardware with software through network-based architectures.
+            </p>
+        </div>
+    </div>
+
+    <div class="portfolio" id="portfolio">
+        <div class="header">
+            <div class="info">
+                <h5>Recent Last MyProjects</h5>
+                <h3>My Work</h3>
+            </div>
+            <button><i class='bx bxl-github'></i> View GitHub</button>
+        </div>
+
+        <div class="portfo-items">
+            <div class="item">
+                <img src="assets/ARM.jpg">
+                <div class="info">
+                    <h4>ARM ROBOT (6DOF)</h4>
+                    <p>
+                        Robot arm with kinematics control using ESP32 and servo motor
+                    </p>
+                    <a href="#">View in Youtube <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/N8N.png">
+                <div class="info">
+                    <h4>n8n Automation</h4>
+                    <p>
+                       AI-powered WhatsApp chatbot for text, voice, images, and PDF with RAG.
+                    </p>
+                    <a href="#">View in Youtube <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="item">
+                <img src="assets/iot.png">
+                <div class="info">
+                    <h4>Internet of Things (IoT)</h4>
+                    <p>
+                        sistem keamanan rumah berbasis IoT dengan ESP32, sensor, dan relay terintegrasi telegram.
+                    </p>
+                    <a href="#">View in Youtube <i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <div class="top">
+            <div class="logo">
+                <img src="assets/logo.png">
+                <a href="https://github.com/Wahyunugroho99">Wahyu Nugroho tech</a>
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Youtube</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+            </div>
+        </div>
+        <div class="separator"></div>
+        <div class="bottom">
+            <p>
+                Made With wahyu nugroho tech | &copy; 2026 All rights reserved
+            </p>
+            <div class="links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookies Setting</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
